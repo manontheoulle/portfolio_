@@ -1,0 +1,138 @@
+::-webkit-scrollbar{display:none;}
+
+.contact-link {
+  position: fixed;
+  left: 54px;
+  top: 45px;
+  font-family: Montserrat, sans-serif;
+  color: #686868;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.logo-manon {
+  position: fixed;
+  left: 46%;
+  top: 27px;
+  right: 46%;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  font-family: Montserrat, sans-serif;
+  color: #686868;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.un-projet {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 250px;
+  height: 250px;
+  margin: 23px;
+  padding: 57px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f5adad;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+
+.un-projet:hover {
+  -webkit-transform: translate(-10px, -10px);
+  -ms-transform: translate(-10px, -10px);
+  transform: translate(-10px, -10px);
+}
+
+.un-projet.gs {
+  background-color: #fff9f3;
+  color: #fff9f3;
+}
+
+.un-projet.bocagette {
+  background-color: #c3dfbe;
+}
+
+.un-projet.br {
+  background-color: #d5bca4;
+}
+
+.un-projet.jacquou {
+  background-color: #f9d589;
+}
+
+.un-projet.boeuf {
+  background-color: #fff4b9;
+}
+
+.un-projet.quille {
+  background-color: #facfcf;
+}
+
+.un-projet.quintesens {
+  background-color: #e0facf;
+}
+
+.un-projet.bg {
+  background-color: #f2e8ff;
+}
+
+.un-projet.pate {
+  background-color: #fff1d3;
+}
+
+.body-portfolio {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: top;
+}
+
+.img-projet.petit {
+  max-width: 70%;
+}
+
+
+
+.mes-projets {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 80vw;
+  padding-top: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+
+
+
